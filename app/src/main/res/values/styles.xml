@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="ProgressBarTheme" parent="AppTheme">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+</resources>

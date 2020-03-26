@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Moengage</string>
+    <string name="text_api_failed">Failed to load news</string>
+</resources>
