@@ -64,7 +64,7 @@ public final class APIManager {
      * Convert input stream to String
      *
      * @param inputStream The input stream from the API response entity
-     * @return String representation of the API response mStringBody
+     * @return String representation of the API response
      */
     private static String convertStreamToString(InputStream inputStream) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(
