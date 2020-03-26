@@ -21,7 +21,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.vicky7230.moengage.R;
 import com.vicky7230.moengage.network.News;
-import com.vicky7230.moengage.network.NewsLoader;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

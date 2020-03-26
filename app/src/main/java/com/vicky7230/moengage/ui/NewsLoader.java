@@ -1,10 +1,13 @@
-package com.vicky7230.moengage.network;
+package com.vicky7230.moengage.ui;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.loader.content.AsyncTaskLoader;
+
+import com.vicky7230.moengage.network.APIManager;
+import com.vicky7230.moengage.network.News;
 
 import java.util.ArrayList;
 
