@@ -104,7 +104,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
                 Date date = inputDateFormat.parse(news.getPublishedAt());
                 time.setText(outputDateFormat.format(date));
             } catch (Exception e) {
-                Log.e(TAG, "Date Parsing : " + e.getLocalizedMessage());
+                Log.e(TAG, "Date Parsing : onBind : " + e.getLocalizedMessage());
             }
         }
     }
